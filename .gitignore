@@ -1,0 +1,51 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+
+# Local market data and generated artifacts
+data/raw/
+data/cache/
+data/training/
+models/live/*.joblib
+models/live/*.pkl
+models/live/*.pickle
+
+# Logs
+*.log
+
+# Credentials and browser session data
+cookies.txt
+*cookie*
+*token*
+*.pem
+*.key
+
+# Temporary and backup files
+*.bak
+*.backup.*
+*.pre_stock_intelligence
+*.pre_width_fix
+*:Zone.Identifier
+
+# Alternate/temporary dashboard copies
+Nautilus_Trading_Intelligence_Pro1234.py
+Nautilus_Trading_Intelligence_Pro_UPDATED.py
+stock_intelligence_UPDATED.py
+
+# Local databases, market data, predictions and logs
+data/**/*.sqlite3
+data/**/*.parquet
+data/**/*.jsonl
+data/**/*.log
+data/research/
+results/
+__pycache__/

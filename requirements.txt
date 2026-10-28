@@ -1,0 +1,5 @@
+nautilus_trader==2.0.0rc7
+pandas
+numpy
+yfinance
+streamlit
