@@ -49,3 +49,4 @@ data/**/*.log
 data/research/
 results/
 __pycache__/
+*.py.bak_*
